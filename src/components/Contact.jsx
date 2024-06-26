@@ -2,6 +2,7 @@ import {Icons} from './Icons.jsx'
 
 const Contact = () => {
   return (
+    
     <section className='contact' id='contact'>
         <h2>Contact</h2>
         <p>Let&apos;s connect and create together.</p>
