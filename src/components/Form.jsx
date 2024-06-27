@@ -8,7 +8,7 @@ const Form = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    emailjs.sendForm('contact_service', 'contact_form', event.target)
+    emailjs.sendForm('service_vqzejpe', 'template_g8fcgsw', event.target)
       .then((response) => {
         alert('Email sent successfully!');
         event.target.reset(); // Reset the form after sending
