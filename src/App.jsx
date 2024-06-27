@@ -4,6 +4,7 @@ import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import Form from './components/Form.jsx';
 
 const App = () => {
   return <div>
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <About />
         <Projects />
+        <Form />
         <Contact />
       </main>
       <Footer />

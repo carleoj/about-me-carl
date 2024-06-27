@@ -110,6 +110,19 @@ img {
   background-color: var(--secondary-shadow);
 }
 
+.btn2 {
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  color: var(--header-text);
+  background-color: var(--secondary);
+  transition: background-color 0.2s ease;
+}
+
+.btn2:hover {
+  cursor: pointer;
+  background-color: var(--secondary-shadow);
+}
+
 .divider {
   position: relative;
   margin-bottom: 6rem;
