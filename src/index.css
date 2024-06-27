@@ -14,8 +14,8 @@
   --headings: #222823;
   --primary: #242424;
   --primary-shadow: #70b37f;
-  --secondary: rgb(81, 95, 87);
-  --secondary-shadow: #7ea484;
+  --secondary: rgb(87, 92, 110);
+  --secondary-shadow: #858d9c;
   --white: #ffffff;
 
   font-family: 'Young Serif', serif;
@@ -103,7 +103,7 @@ img {
   color: var(--header-text);
   background-color: var(--secondary);
   box-shadow: 0 2px var(--secondary-shadow);
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 
 .btn:hover {
