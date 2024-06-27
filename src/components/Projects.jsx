@@ -11,7 +11,7 @@ const projectList = [
       description:
         'This served as my final project in our Data Structures class, this project is about book reservations, and records management with file-based database.',
       liveLink: '#',
-      githubLink: '#',
+      githubLink: 'https://github.com/carleoj/ds_finalproject',
       image: dsProj,
     },
     {
@@ -21,7 +21,7 @@ const projectList = [
       description:
         'My final project presented in our Information Management class. This demonstrates how the secured login system works with encryption and web session.',
       liveLink: '#',
-      githubLink: '#',
+      githubLink: 'https://github.com/carleoj/imweb/tree/main/CSWeb',
       image: loginsys,
     },
     {
