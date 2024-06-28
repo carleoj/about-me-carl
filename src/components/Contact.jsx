@@ -13,7 +13,7 @@ const Contact = () => {
                 <a href="https://x.com/JimroeP49159" target='_blank'>
                     <Icons.twitter />
                 </a>
-                <a href="https://www.linkedin.com/in/jimroe-p-0b3959316" target='_blank'>
+                <a href="https://www.linkedin.com/in/carl-jimroe-paño-0b3959316" target='_blank'>
                     <Icons.linkedin />
                 </a>
                 <a href="https://www.instagram.com/ca_rl_p/" target='_blank'>
