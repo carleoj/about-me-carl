@@ -235,7 +235,7 @@ header button:hover {
 .photo-container h2 {
   font-size: 30px;
   color: #333;
-  margin-bottom: 30px; /* Space between the heading and the photo cards */
+  margin-bottom: 30px;  /* Space between the heading and the photo cards */
 }
 
 /* Individual photo card styling */
