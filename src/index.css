@@ -229,7 +229,7 @@ header button:hover {
   flex-direction: column; /* Stack items vertically by default */
   align-items: center; /* Center-align the content horizontally */
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 
@@ -249,7 +249,7 @@ header button:hover {
   margin: 15px; /* Adjusted margin to space out the cards */
   text-align: center;
   position: relative;
-  width: 450px; /* Fixed width for each card */
+  width: 400px; /* Fixed width for each card */
   background-color: #fff; /* Ensure background color for consistency */
 }
 
