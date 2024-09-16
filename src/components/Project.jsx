@@ -21,7 +21,6 @@ const Project = ({data, reverse}) => {
             </ul>
             <p>{data.description}</p>
             <div>
-                
                 <Link href={data.githubLink}>Github</Link>
             </div>
         </div>

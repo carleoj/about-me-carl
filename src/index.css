@@ -14,8 +14,8 @@
   --headings: #222823;
   --primary: #242424;
   --primary-shadow: #70b37f;
-  --secondary: rgb(87, 92, 110);
-  --secondary-shadow: #858d9c;
+  --secondary: rgb(43, 78, 46);
+  --secondary-shadow: #4a8853;
   --white: #ffffff;
 
   font-family: 'Young Serif', serif;
@@ -221,6 +221,73 @@ header button:hover {
   margin-bottom: 1rem;
 }
 
+/* PHOTOTOS */
+
+/* Container for the photo cards */
+.photo-container{
+  display: flex;
+  flex-direction: column; /* Stack items vertically by default */
+  align-items: center; /* Center-align the content horizontally */
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+
+/* Styling for the heading */
+.photo-container h2 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px; /* Space between the heading and the photo cards */
+}
+
+/* Individual photo card styling */
+.photo-card {
+  border: 2px solid #ddd; /* Light border around the card */
+  border-radius: 12px; /* Rounded corners for a softer look */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+  margin: 15px; /* Adjusted margin to space out the cards */
+  text-align: center;
+  position: relative;
+  width: 450px; /* Fixed width for each card */
+  background-color: #fff; /* Ensure background color for consistency */
+}
+
+/* Image styling */
+.photo-image {
+  width: 100%;
+  height: 250px;
+  display: block;
+}
+
+/* Title styling */
+.photo-title {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border-top: 2px solid #ddd; /* Border at the top of the card */
+}
+
+/* Responsive design for desktop screens */
+@media (min-width: 769px) {
+  .photo-container {
+    flex-direction: row; /* Align items horizontally on desktop screens */
+    flex-wrap: wrap; /* Allow cards to wrap if there are too many to fit in one line */
+    justify-content: center; /* Center-align cards horizontally */
+    gap: 20px; /* Add spacing between the cards */
+  }
+}
+
+/* Ensure the container height is enough to center the content vertically if needed */
+.photo-container {
+  min-height: 100vh; /* Minimum height to center content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+}
+
+
 /* PROJECTS */
 
 .project {
@@ -271,6 +338,59 @@ header button:hover {
   display: flex;
   gap: 0.3rem;
 }
+
+
+/* PROJECTS */
+
+.project {
+  margin-bottom: 2.5rem;
+}
+
+.project:last-of-type {
+  margin-bottom: 0;
+}
+
+.project .image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  aspect-ratio: 16/9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.project .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  text-align: center;
+}
+
+.project .content ul {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project .content ul li {
+  padding: 0.4rem 0.7rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  color: var(--header-text);
+  background-color: var(--primary);
+  box-shadow: 0 1px var(--primary-shadow);
+}
+
+.project .content p {
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.project .content div {
+  display: flex;
+  gap: 0.3rem;
+}
+
 
 
 /* CONTACT */
@@ -448,3 +568,4 @@ footer {
     font-size: 1rem;
   }
 }
+

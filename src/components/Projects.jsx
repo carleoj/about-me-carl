@@ -27,8 +27,8 @@ const projectList = [
     {
       id: 3,
       title: 'Soon to be implemented',
-      tech: ['HTML', 'CSS', 'JavaScript','MySQL'],
-      description: "My project from Web Programming class.",
+      tech: ['HTML', 'CSS', 'JavaScript','React', 'MySQL'],
+      description: "Our group project from Software Engineering class.",
       liveLink: '#',
       githubLink: '#',
       image: skeleton,
@@ -36,9 +36,9 @@ const projectList = [
     {
       id: 4,
       title: 'Soon to be implemented',
-      tech: ['HTML', 'CSS','Javascript','NoSQL'],
+      tech: ['HTML', 'CSS','Javascript','React Native'],
       description:
-        'My project from Advanced DBMS class.',
+        'Our group project from Human-Computer Interaction class.',
       liveLink: '#',
       githubLink: '#',
       image: skeleton,
