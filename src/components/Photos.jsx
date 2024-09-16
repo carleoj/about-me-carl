@@ -20,7 +20,7 @@ const Photos = () => {
         <h2>Photo Gallery</h2>
       <PhotoCard imageSrc={pic1} title="Photo 1" />
       <PhotoCard imageSrc={pic2} title="Photo 2" />
-      <PhotoCard imageSrc={pic3} title="Photo 3" /><br />
+      <PhotoCard imageSrc={pic3} title="Photo 3" /><br /><br />
     </div>
   );
 };
