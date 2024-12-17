@@ -222,7 +222,8 @@ header button:hover {
 }
 
 /* PHOTOTOS */
-=/* Container for the photo cards */
+
+/* Container for the photo cards */
 .photo-container {
   display: flex;
   flex-direction: column; /* Stack items vertically by default */
@@ -298,9 +299,13 @@ header button:hover {
 }
 
 
-/* PROJECTS */
 
+/* PROJECT */
 .project {
+  display: flexbox;
+  flex-direction: row; /* Default: image and content side by side */
+  align-items: center;
+  gap: 1.5rem; /* Space between image and content */
   margin-bottom: 2.5rem;
 }
 
@@ -309,12 +314,17 @@ header button:hover {
 }
 
 .project .image {
-  width: 100%;
-  height: auto;
-  margin-bottom: 0.5rem;
+  width: 50%; /* Image takes half the space on larger screens */
+  max-width: 400px; /* Prevent overly large images */
   aspect-ratio: 16/9;
   border-radius: 4px;
   overflow: hidden;
+}
+
+.project .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image scales properly */
 }
 
 .project .content {
@@ -322,11 +332,17 @@ header button:hover {
   flex-direction: column;
   gap: 0.6rem;
   text-align: center;
+  flex: 1; /* Content takes up remaining space */
+  padding: 0 10px;
 }
 
 .project .content ul {
   display: flex;
+  flex-wrap: wrap; /* Allow tech items to wrap on smaller screens */
+  justify-content: left;
   gap: 0.5rem;
+  padding: 0;
+  margin: 0;
 }
 
 .project .content ul li {
@@ -340,15 +356,33 @@ header button:hover {
 
 .project .content p {
   margin-bottom: 1rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: 1.5;
 }
 
 .project .content div {
   display: flex;
-  gap: 0.3rem;
+  justify-content: left;
+  gap: 0.5rem;
 }
 
+/* Responsive Layout for Mobile Screens */
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column; /* Stack image and content vertically */
+    gap: 1rem;
+    text-align: center; /* Center-align all content */
+  }
+
+  .project .image {
+    width: 100%; /* Image takes full width on small screens */
+    max-width: 100%;
+  }
+
+  .project .content {
+    padding: 0;
+  }
+}
 
 /* PROJECTS */
 
