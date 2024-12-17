@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
 /* Universal Presets */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,7 +25,6 @@
 }
 
 /* BASE STYLES */
-
 
 body {
   background-color: var(--body-bg);
@@ -79,6 +79,11 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.nav ul li a:hover {
+  color: var(--secondary-shadow);
+  cursor: pointer;
 }
 
 img {
@@ -181,6 +186,15 @@ header button:hover {
   fill: var(--secondary);
 }
 
+header button img {
+  transition: filter 0.3s ease; /* Ensure the hover effect applies smoothly */
+}
+
+/* Hover Effect: Change the icon color to green */
+header button:hover img {
+  filter: brightness(0) saturate(100%) invert(57%) sepia(84%) saturate(408%) hue-rotate(83deg) brightness(90%) contrast(85%);
+}
+
 /* HERO SECTION */
 
 .hero .image {
@@ -225,7 +239,7 @@ header button:hover {
 
 /* Container for the photo cards */
 .photo-container {
-  display: flex;
+  display: flexbox;
   flex-direction: column; /* Stack items vertically by default */
   align-items: center; /* Center-align the content horizontally */
   padding: 10px;

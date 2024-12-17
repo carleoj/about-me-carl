@@ -22,6 +22,7 @@ const Project = ({data, reverse}) => {
             <p>{data.description}</p>
             <div>
                 <Link href={data.githubLink}>Github</Link>
+                <Link href={data.gdriveLink}>View Demo</Link>
             </div>
         </div>
     </article>
