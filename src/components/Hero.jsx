@@ -9,7 +9,7 @@ const Hero = () => {
         </div>
         <div>
             <h1>Carl Paño</h1>
-            <p>BS Computer Science Student Lol</p>
+            <p>BS Computer Science Student</p>
             <p>Davao City, PH</p>
             <Link href='#projects'>Check out my projects</Link>
         </div>
