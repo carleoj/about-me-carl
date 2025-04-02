@@ -34,7 +34,7 @@ const projectList = [
       tech: ['React', 'NodeJS', 'Express', 'MySQL'],
       description: "Our group project from Software Engineering class.",
       liveLink: '#',
-      githubLink: '#',
+      githubLink: 'https://github.com/carleoj/softeng-libsys',
       gdriveLink: '',
       image: spaclibsys2,
     },
