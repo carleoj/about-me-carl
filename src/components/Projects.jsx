@@ -50,10 +50,40 @@ const projectList = [
     },
     {
       id: 5,
-      title: 'Soon to be Implemented',
+      title: 'Soon to be Implemented (2025)',
       tech: ['React', 'NodeJS', 'Express', 'MongoDB',],
       description:
         'Our group project from Advanced Database Systems class.',
+      liveLink: '#',
+      githubLink: '#',
+      image: skeleton,
+    },
+    {
+      id: 6,
+      title: 'Soon to be Implemented (2025)',
+      tech: ['React Native'],
+      description:
+        'My Project from Applications Development course',
+      liveLink: '#',
+      githubLink: '#',
+      image: skeleton,
+    },
+    {
+      id: 7,
+      title: 'Soon to be Implemented (2025)',
+      tech: ['React'],
+      description:
+        'My Project from Intelligent Systems course',
+      liveLink: '#',
+      githubLink: '#',
+      image: skeleton,
+    },
+    {
+      id: 8,
+      title: 'Soon to be Implemented (2026)',
+      tech: ['C'],
+      description:
+        'My Project from Parallel Programming course',
       liveLink: '#',
       githubLink: '#',
       image: skeleton,
