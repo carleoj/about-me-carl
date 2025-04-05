@@ -40,10 +40,20 @@ const projectList = [
     },
     {
       id: 4,
-      title: 'Dorcas: An Online Counseling App',
+      title: 'Dorcas: An Online Counseling App (2024)',
       tech: ['React', 'NodeJS', 'Express', 'MySQL',],
       description:
         'Our group project from Human-Computer Interaction class.',
+      liveLink: '#',
+      githubLink: '#',
+      image: skeleton,
+    },
+    {
+      id: 5,
+      title: 'Soon to be Implemented',
+      tech: ['React', 'NodeJS', 'Express', 'MongoDB',],
+      description:
+        'Our group project from Advanced Database Systems class.',
       liveLink: '#',
       githubLink: '#',
       image: skeleton,
