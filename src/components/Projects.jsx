@@ -40,7 +40,7 @@ const projectList = [
     },
     {
       id: 4,
-      title: 'Soon to be implemented',
+      title: 'Dorcas: An Online Counseling App',
       tech: ['React', 'NodeJS', 'Express', 'MySQL',],
       description:
         'Our group project from Human-Computer Interaction class.',
