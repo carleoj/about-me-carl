@@ -31,7 +31,7 @@ const projectList = [
     {
       id: 3,
       title: 'Library Printing Services System (2024)',
-      tech: ['React', 'NodeJS', 'Express', 'MySQL'],
+      tech: ['MySQL', 'Express', 'React', 'NodeJS'],
       description: "Our group project from Software Engineering class.",
       liveLink: '#',
       githubLink: 'https://github.com/carleoj/softeng-libsys',
@@ -41,7 +41,7 @@ const projectList = [
     {
       id: 4,
       title: 'Dorcas: An Online Counseling App (2024)',
-      tech: ['React', 'NodeJS', 'Express', 'MySQL',],
+      tech: ['MySQL', 'Express', 'React', 'NodeJS',],
       description:
         'Our group project from Human-Computer Interaction class.',
       liveLink: '#',
@@ -51,7 +51,7 @@ const projectList = [
     {
       id: 5,
       title: 'Soon to be Implemented (2025)',
-      tech: ['React', 'NodeJS', 'Express', 'MongoDB',],
+      tech: ['MongoDB', 'Express', 'React', 'NodeJS',],
       description:
         'Our group project from Advanced Database Systems class.',
       liveLink: '#',
